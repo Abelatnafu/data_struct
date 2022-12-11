@@ -3,6 +3,7 @@ Node class for the doubly linked list
 """
 class Node:
     def __init__(self,val = 0, next = None , prev = None):
+        # initialize 
         self.val = val
         self.next = next
         self.prev = prev
